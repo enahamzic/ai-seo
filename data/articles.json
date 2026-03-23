@@ -1,0 +1,41 @@
+{
+  "article": {
+    "title": "How Rendering Strategy Shapes AI Search Visibility",
+    "summary": "An evidence-oriented article comparing how server-side and client-side rendering influence what AI-driven crawlers can discover, parse, and cite.",
+    "sections": [
+      {
+        "heading": "Why this comparison matters now",
+        "paragraphs": [
+          "Search is changing from blue links to synthesized answers. Modern discovery systems combine classic crawlers, large language models, and ranking pipelines that extract passages, score relevance, and generate concise responses. In this environment, page rendering strategy is no longer only a performance choice. It directly influences what information is visible at crawl time, how quickly content is indexed, and how confidently a system can attribute facts to a source. For researchers, that means rendering can become a measurable variable in AI search optimization experiments.",
+          "Server-side rendering delivers fully populated HTML in the initial response. A bot can parse headings, paragraphs, and list items immediately, even if it never executes JavaScript. Client-side rendering, by contrast, often returns a minimal shell first and relies on later script execution to insert the main content. If execution is delayed, blocked, or partially supported, there may be a visibility gap where critical text is absent at first inspection. That gap can affect extractability, citation frequency, and ranking stability."
+        ]
+      },
+      {
+        "heading": "How AI crawlers interpret rendered content",
+        "paragraphs": [
+          "AI retrieval stacks usually perform multiple passes. A lightweight fetcher collects raw HTML, a parser identifies semantic blocks, and an embedding stage converts those blocks into vectors for retrieval. When rich content is already present in the first HTML payload, segmentation is straightforward: headings define topical boundaries, paragraph order supports coherence, and lists expose compact claims. This structure improves chunk quality and reduces ambiguity during retrieval and answer synthesis.",
+          "With delayed client rendering, the first pass may capture only navigation and placeholders. Some systems run a second rendering pass with a headless browser, but this introduces cost and queue latency. At scale, not every URL receives equal rendering resources. Pages that require full JavaScript execution can therefore experience uneven indexing depth. Even when eventually indexed, the temporal lag may reduce freshness signals compared with pages that expose complete content instantly."
+        ],
+        "list": [
+          "Immediate HTML availability can improve first-pass extraction reliability.",
+          "Semantic tags in server output help chunking and citation alignment.",
+          "Delayed hydration can create crawl-time uncertainty and indexing lag.",
+          "Render-cost tradeoffs influence how often dynamic pages are revisited."
+        ]
+      },
+      {
+        "heading": "Designing a fair SSR vs CSR experiment",
+        "paragraphs": [
+          "A valid experiment must isolate rendering as the primary independent variable. Both versions should share identical copy, heading hierarchy, metadata, and styling so that differences in discoverability are attributable to delivery timing rather than content quality. Logging should capture first-crawl HTML snapshots, JavaScript execution outcomes, and time to appearance in AI answer surfaces. Repeated measurements over several days reduce noise from crawler scheduling and external ranking fluctuations.",
+          "Researchers should also track practical outcomes: snippet completeness, factual citation rate, and retrieval position for target queries. If SSR pages are cited earlier or more consistently, the evidence supports the hypothesis that immediate payload availability benefits AI-oriented indexing. If differences are small, it suggests modern crawlers successfully render JavaScript for the tested domain. Either result is valuable, because it informs architecture decisions with empirical data rather than assumptions."
+        ],
+        "list": [
+          "Keep content and DOM structure identical across variants.",
+          "Measure both first-seen latency and long-term citation behavior.",
+          "Use repeated query sets to evaluate consistency, not single wins.",
+          "Report limitations, including crawler variance and regional effects."
+        ]
+      }
+    ]
+  }
+}
