@@ -1,5 +1,9 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs';
+import path from 'path';
+
+const resultsDir = path.resolve(process.cwd(), 'results');
+fs.mkdirSync(resultsDir, { recursive: true });
 
 async function runExperiment(url: string, profileName: string, enableJS: boolean, waitTime: number) {
   // 1. Launch the browser
@@ -18,7 +22,8 @@ async function runExperiment(url: string, profileName: string, enableJS: boolean
 
     // 5. Capture the resulting HTML
     const html = await page.content();
-    fs.writeFileSync(`./results/${profileName}.txt`, html);
+    const outputPath = path.join(resultsDir, `${profileName}.txt`);
+    fs.writeFileSync(outputPath, html);
     
     console.log(`Saved results for ${profileName}`);
   } catch (error) {
@@ -28,8 +33,16 @@ async function runExperiment(url: string, profileName: string, enableJS: boolean
   }
 }
 
-// Run Profile A: "The Search Engine" (JS Enabled, 5s wait)
+// --- THE FULL EXPERIMENTAL MATRIX ---
+
+// 1. SSR + Profile A (High Resource)
 runExperiment('http://localhost:3000/ssr-version', 'Profile_A_SSR', true, 5000);
 
-// Run Profile B: "The AI Agent" (JS Disabled, 2s wait)
+// 2. SSR + Profile B (Constrained Agent)
+runExperiment('http://localhost:3000/ssr-version', 'Profile_B_SSR', false, 2000);
+
+// 3. CSR + Profile A (High Resource - Should eventually render)
+runExperiment('http://localhost:3000/csr-version', 'Profile_A_CSR', true, 5000);
+
+// 4. CSR + Profile B (Constrained Agent - The "Visibility Gap" target)
 runExperiment('http://localhost:3000/csr-version', 'Profile_B_CSR', false, 2000);
