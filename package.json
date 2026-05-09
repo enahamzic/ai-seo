@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "index:csr": "npx tsx src/indexing/csr-indexing.ts",
+    "index:ssr": "npx tsx src/indexing/ssr-indexing.ts",
+    "index:production": "npm run index:csr"
   },
   "dependencies": {
     "next": "16.2.1",

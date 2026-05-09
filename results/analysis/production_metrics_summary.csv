@@ -1,0 +1,160 @@
+Scenario_Key,Scenario_Label,Interval_ms,Similarity_Score,Status,Threshold
+baseline,Baseline,0,0.064381,Fail,0.5
+baseline,Baseline,20,0.064381,Fail,0.5
+baseline,Baseline,40,0.064381,Fail,0.5
+baseline,Baseline,60,0.064381,Fail,0.5
+baseline,Baseline,80,0.064381,Fail,0.5
+baseline,Baseline,100,0.064381,Fail,0.5
+baseline,Baseline,120,0.064381,Fail,0.5
+baseline,Baseline,140,0.983405,Pass,0.5
+baseline,Baseline,160,0.983405,Pass,0.5
+baseline,Baseline,180,0.983405,Pass,0.5
+baseline,Baseline,200,0.983405,Pass,0.5
+baseline,Baseline,220,0.983405,Pass,0.5
+baseline,Baseline,240,0.983405,Pass,0.5
+baseline,Baseline,260,0.983405,Pass,0.5
+baseline,Baseline,280,0.983405,Pass,0.5
+baseline,Baseline,300,0.983405,Pass,0.5
+baseline,Baseline,320,0.983405,Pass,0.5
+baseline,Baseline,340,0.983405,Pass,0.5
+baseline,Baseline,360,0.983405,Pass,0.5
+baseline,Baseline,380,0.983405,Pass,0.5
+baseline,Baseline,400,0.983405,Pass,0.5
+baseline,Baseline,420,0.983405,Pass,0.5
+baseline,Baseline,440,0.983405,Pass,0.5
+baseline,Baseline,460,0.983405,Pass,0.5
+baseline,Baseline,480,0.983405,Pass,0.5
+baseline,Baseline,500,0.983405,Pass,0.5
+baseline,Baseline,520,0.983405,Pass,0.5
+baseline,Baseline,540,0.983405,Pass,0.5
+baseline,Baseline,560,0.983405,Pass,0.5
+baseline,Baseline,580,0.983405,Pass,0.5
+baseline,Baseline,600,0.983405,Pass,0.5
+baseline,Baseline,620,0.983405,Pass,0.5
+baseline,Baseline,640,0.983405,Pass,0.5
+baseline,Baseline,660,0.983405,Pass,0.5
+baseline,Baseline,680,0.983405,Pass,0.5
+baseline,Baseline,700,0.983405,Pass,0.5
+baseline,Baseline,720,0.983405,Pass,0.5
+baseline,Baseline,740,0.983405,Pass,0.5
+baseline,Baseline,760,0.983405,Pass,0.5
+baseline,Baseline,780,0.983405,Pass,0.5
+baseline,Baseline,800,0.983405,Pass,0.5
+baseline,Baseline,820,0.983405,Pass,0.5
+baseline,Baseline,840,0.983405,Pass,0.5
+baseline,Baseline,860,0.983405,Pass,0.5
+baseline,Baseline,880,0.983405,Pass,0.5
+baseline,Baseline,900,0.983405,Pass,0.5
+baseline,Baseline,920,0.983405,Pass,0.5
+baseline,Baseline,940,0.983405,Pass,0.5
+baseline,Baseline,960,0.983405,Pass,0.5
+baseline,Baseline,980,0.983405,Pass,0.5
+baseline,Baseline,1000,0.983405,Pass,0.5
+constrained-agent,Constrained Agent,0,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,20,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,40,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,60,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,80,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,100,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,120,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,140,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,160,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,180,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,200,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,220,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,240,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,260,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,280,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,300,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,320,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,340,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,360,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,380,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,400,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,420,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,440,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,460,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,480,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,500,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,520,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,540,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,560,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,580,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,600,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,620,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,640,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,660,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,680,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,700,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,720,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,740,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,760,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,780,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,800,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,820,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,840,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,860,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,880,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,900,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,920,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,940,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,960,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,980,0.064381,Fail,0.5
+constrained-agent,Constrained Agent,1000,0.064381,Fail,0.5
+mobile-crawler,Mobile Crawler,0,0.064381,Fail,0.5
+mobile-crawler,Mobile Crawler,20,0.064381,Fail,0.5
+mobile-crawler,Mobile Crawler,40,0.064381,Fail,0.5
+mobile-crawler,Mobile Crawler,60,0.064381,Fail,0.5
+mobile-crawler,Mobile Crawler,80,0.064381,Fail,0.5
+mobile-crawler,Mobile Crawler,100,0.064381,Fail,0.5
+mobile-crawler,Mobile Crawler,120,0.064381,Fail,0.5
+mobile-crawler,Mobile Crawler,140,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,160,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,180,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,200,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,220,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,240,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,260,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,280,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,300,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,320,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,340,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,360,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,380,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,400,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,420,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,440,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,460,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,480,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,500,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,520,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,540,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,560,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,580,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,600,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,620,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,640,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,660,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,680,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,700,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,720,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,740,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,760,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,780,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,800,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,820,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,840,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,860,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,880,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,900,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,920,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,940,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,960,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,980,0.983405,Pass,0.5
+mobile-crawler,Mobile Crawler,1000,0.983405,Pass,0.5
+
+# Summary: TTSC = first interval_ms with Similarity_Score > Threshold
+Scenario_Label,TTSC_ms,Threshold_Crossed
+Baseline,140,yes
+Mobile Crawler,140,yes
+Constrained Agent,not_reached,no
