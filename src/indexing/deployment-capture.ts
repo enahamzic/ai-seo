@@ -35,7 +35,7 @@ const MOBILE_GOOGLEBOT_UA =
   '(compatible; Googlebot/2.1; +http://www.google.com/bot.html)';
 
 export type ScenarioKey = 'baseline' | 'model' | 'constrained';
-export type CaptureBundle = 'csr-results' | 'ssr-results';
+export type CaptureBundle = 'csr-results' | 'ssr-results' | 'local-csr' | 'local-ssr';
 
 export interface Scenario {
   key: ScenarioKey;

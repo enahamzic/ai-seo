@@ -7,8 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "index:csr": "npx tsx src/indexing/csr-indexing.ts",
-    "index:ssr": "npx tsx src/indexing/ssr-indexing.ts",
+    "index:csr": "npx tsx --env-file=.env.local src/indexing/csr-indexing.ts",
+    "index:ssr": "npx tsx --env-file=.env.local src/indexing/ssr-indexing.ts",
+    "index:local-csr": "npx tsx --env-file=.env.local src/indexing/local-csr-indexing.ts",
+    "index:local-ssr": "npx tsx --env-file=.env.local src/indexing/local-ssr-indexing.ts",
     "index:production": "npm run index:csr"
   },
   "dependencies": {
